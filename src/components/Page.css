@@ -35,3 +35,12 @@
     padding: 20px;
     box-sizing: border-box;
   }
+
+  .container {
+    display: flex;
+  }
+  
+  .content-scrollable {
+    overflow-y: auto;
+    flex: 1; 
+  }

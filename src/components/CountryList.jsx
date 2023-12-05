@@ -6,7 +6,7 @@ import './CountryList.css';
 const CountryList = ({ searchTerm, selectedContinent }) => {
   const { loading, error, data } = useQuery(ALL_COUNTRIES);
   const [selectedCountry, setSelectedCountry] = useState(null);
-  const [getCountryDetails, { loading: countryLoading, data: countryData }] = useLazyQuery(FIND_COUNTRY);
+  const [getCountryDetails] = useLazyQuery(FIND_COUNTRY);
   const [countryImages, setCountryImages] = useState({});
 
   useEffect(() => {
@@ -53,7 +53,6 @@ const CountryList = ({ searchTerm, selectedContinent }) => {
 
   return (
     <div>
-      <h2>Lista de países</h2>
       <div className="card-container">
         {countries.map((country) => (
           <div key={country.code} className="card" onClick={() => handleCardClick(country)}>
