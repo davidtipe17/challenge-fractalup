@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    background-color: rgb(155, 235, 235);
+  }
+  
+  .sidebar {
+    width: 25%;
+    height: 100vh;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
