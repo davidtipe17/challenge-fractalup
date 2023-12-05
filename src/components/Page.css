@@ -1,6 +1,9 @@
 .container {
     display: flex;
     background-color: rgb(155, 235, 235);
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   
   .sidebar {
@@ -9,14 +12,18 @@
     background-color: #333;
     padding: 20px;
     box-sizing: border-box;
+    border: solid wheat 2px;
+    font-size: 30px;
   }
-  
+  .sidebar-logo {
+    background-color: #555;
+  }
   .sidebar a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 10px 0;
-    font-size: 16px;
+    padding: 40px 10px;
+    transition: all 0.3s ease-in-out;
   }
   
   .sidebar a:hover {

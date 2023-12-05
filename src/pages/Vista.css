@@ -1,0 +1,14 @@
+.vista1-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .vista1-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .vista1-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }

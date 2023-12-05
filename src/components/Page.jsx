@@ -6,9 +6,7 @@ import './Page.css';
 const Page = ({ children }) => {
   return (
     <div className="container">
-      <div className="sidebar">
         <Sidebar />
-      </div>
       <div className="content">
         {children}
       </div>

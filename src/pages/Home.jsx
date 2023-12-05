@@ -1,4 +1,3 @@
-// Home.js
 import React, { useState } from 'react';
 import Page from '../components/Page';
 import CountryList from '../components/CountryList';

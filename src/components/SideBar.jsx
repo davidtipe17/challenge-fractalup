@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <div className="">
-      <Link to="/">LOGO</Link>
-      <Link to="/">Home</Link>
-      <Link to="/vista1">Vista1</Link>
-      <Link to="/vista2">Vista2</Link>
+    <div className="sidebar">
+      <Link to="/" className="sidebar-logo">LOGO</Link>
+      <Link to="/" className="sidebar-link">Home</Link>
+      <Link to="/vista1" className="sidebar-link">Vista1</Link>
+      <Link to="/vista2" className="sidebar-link">Vista2</Link>
     </div>
   );
 };

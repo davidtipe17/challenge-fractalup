@@ -1,4 +1,3 @@
-// SearchBar.js
 import React, { useState } from 'react';
 import ContinentModal from './ContinentModal';
 import './SearchBar.css';
